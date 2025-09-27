@@ -16,7 +16,7 @@ app = FastAPI()
 
 # ---------------- CORS ----------------
 origins = [
-    "https://exquisite-kringle-7d8231.netlify.app"  # your frontend # if testing locally
+    "https://hr-front-rho.vercel.app",  # Vercel frontend     
 ]
 
 app.add_middleware(
