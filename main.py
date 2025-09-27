@@ -16,7 +16,7 @@ app = FastAPI()
 
 # ---------------- CORS ----------------
 origins = [
-    "https://hr-front-rho.vercel.app",  # Vercel frontend     
+    "https://hr-front2.vercel.app",  # Vercel frontend     
 ]
 
 app.add_middleware(
