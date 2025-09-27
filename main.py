@@ -16,7 +16,7 @@ app = FastAPI()
 
 # ---------------- CORS ----------------
 origins = [
-    "https://pmhr.netlify.app",  # your frontend # if testing locally
+    "https://exquisite-kringle-7d8231.netlify.app"  # your frontend # if testing locally
 ]
 
 app.add_middleware(
