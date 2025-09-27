@@ -16,6 +16,7 @@ app = FastAPI()
 
 # ---------------- CORS ----------------
 origins = [
+    "https://superlative-concha-732ca8.netlify.app/",
     "http://localhost:5173",  # your frontend # if testing locally
 ]
 
